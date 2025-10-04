@@ -18,8 +18,9 @@
             <button class="user-btn headercl-btn" onclick="toggleUserModal()">👤</button>
         </div>
     </header>
-    <!--Первая страница-->
+
     <main class="page-container">
+        <!--Первая страница-->
         <section id="home" class="page active headercl">
             <div class="welcome-section">
                 <h1 class="welcome-title">Добро пожаловать в Flowers Live!</h1>
@@ -61,11 +62,6 @@
                             <p>Учёные вывели три уникальных сорта орхидей с необычными зелёными прожилками</p>
                         </div>
                 </div>
-                <!--<div class="page active other3">
-                    <img src="sinshlyuxi.jfif">
-                    <p>Мы украли у ребёнка кактус  чтобы его содержал наш лучший эксперт 
-                    </h2>
-                </div>-->
             </div>
         </section>
 
@@ -74,7 +70,6 @@
                 <h1>Что говорят наши эксперты</h1>
             </div>
             <div class="expert-container">
-
                 <input type="radio" name="expertSelect" id="select-expert1" class="expert-select" hidden>
                 <input type="radio" name="expertSelect" id="select-expert2" class="expert-select" hidden>
               
@@ -84,7 +79,7 @@
                     <div class="gopnik">
                       <img src="котлы.png" alt="Эксперт 1">
                       <div class="quote">
-                        <span class="q">“Дядь, не в масть тебе такая орхидея, давай срывай.”</span>
+                        <span class="q">"Дядь, не в масть тебе такая орхидея, давай срывай."</span>
                         <span class="source">— @jostkiy_gopnik · ранг: эксперт</span>
                       </div>
                     </div>
@@ -97,7 +92,7 @@
                     <div class="general">
                       <img src="general.png" alt="Эксперт 2">
                       <div class="quote">
-                        <span class="q">“... А ты мне кактус каргения, Пааа”</span>
+                        <span class="q">"... А ты мне кактус каргения, Пааа"</span>
                         <span class="source">— @stalnoj_general · ранг: эксперт</span>
                       </div>
                     </div>
@@ -105,198 +100,259 @@
                 </label>
               </div>              
         </section>
-<!--Вторая страница-->
-<section id="catalog" class="page">
-    <h2 class="section-title">Каталог растений</h2>
-    <p>Растения которые подойдут для вашей коллекции или станут её началом</p>
-  
-    <div class="catalog-wrapper">
-      <!-- Фильтр -->
-      <aside class="catalog-filter">
-        <h3>Фильтр</h3>
-        <form>
-          <label><input type="checkbox" name="plant" value="monstera"> Монстеры</label>
-          <label><input type="checkbox" name="plant" value="philodendron"> Филодендроны</label>
-          <label><input type="checkbox" name="plant" value="ficus"> Фикусы</label>
-          <label><input type="checkbox" name="plant" value="orchid"> Орхидеи</label>
-          <label><input type="checkbox" name="plant" value="succulent"> Суккуленты</label>
-          <label><input type="checkbox" name="plant" value="cactus"> Кактусы</label>
-          <label><input type="checkbox" name="plant" value="palm"> Пальмы</label>
-          <label><input type="checkbox" name="plant" value="fern"> Папоротники</label>
-        </form>
-      </aside>
-  
-      <!-- Каталог -->
-      <div class="catalog-plants">
-        <div class="catalog-card headercl" data-category="monstera">
-            <div class="catalog-image">
-              <img src="" alt="Monstera Plant">
-            </div>
-            <div class="catalog-info">
-              <div class="catalog-name">Монстера</div>
-              <div class="catalog-status">Этот цветок просто имба!</div>
-              <button class="add-catalog-btn">Добавить в коллекцию</button>
-            </div>
-        </div>
-        <div class="catalog-card headercl" data-category="orchid">
-            <div class="catalog-image">
-              <img src="" alt="Orhidea">
-            </div>
-            <div class="catalog-info">
-              <div class="catalog-name">Орхидея</div>
-              <div class="catalog-status">Этот цветок просто имба!</div>
-              <button class="add-catalog-btn">Добавить в коллекцию</button>
-            </div>
-        </div>
-        <!--добавить ещё растения--> 
+
+        <!--Вторая страница-->
+        <section id="catalog" class="page">
+            <h2 class="section-title">Каталог растений</h2>
+            <p>Растения которые подойдут для вашей коллекции или станут её началом</p>
+          
+            <div class="catalog-wrapper">
+              <!-- Фильтр -->
+              <aside class="catalog-filter">
+                <h3>Фильтр</h3>
+                <form>
+                  <label><input type="checkbox" name="plant" value="monstera"> Монстеры</label>
+                  <label><input type="checkbox" name="plant" value="philodendron"> Филодендроны</label>
+                  <label><input type="checkbox" name="plant" value="ficus"> Фикусы</label>
+                  <label><input type="checkbox" name="plant" value="orchid"> Орхидеи</label>
+                  <label><input type="checkbox" name="plant" value="succulent"> Суккуленты</label>
+                  <label><input type="checkbox" name="plant" value="cactus"> Кактусы</label>
+                  <label><input type="checkbox" name="plant" value="palm"> Пальмы</label>
+                  <label><input type="checkbox" name="plant" value="fern"> Папоротники</label>
+                </form>
+              </aside>
+          
+              <!-- Каталог -->
+              <!-- Каталог -->
+<div class="catalog-plants">
+  <div class="catalog-card headercl" data-category="monstera">
+      <div class="catalog-image">
+          <img src="monstera_d.png" alt="Monstera Plant">
       </div>
-    </div>
-  </section>
-  
-  
+      <div class="catalog-info">
+          <div class="catalog-name">Монстера Делициоза</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="orchid">
+      <div class="catalog-image">
+          <img src="orhidea_f.png" alt="Orhidea">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Орхидея Фаленопсис</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="philodendron">
+      <div class="catalog-image">
+          <img src="philo_birkin.png" alt="philodendron">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Филодендрон Биркин</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="philodendron">
+      <div class="catalog-image">
+          <img src="philo_mikans.png" alt="philodendron">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Филодендрон Миканс</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="philodendron">
+      <div class="catalog-image">
+          <img src="philo_karamel.png" alt="philodendron">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Филодендрон Фаленопсис</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="ficus">
+      <div class="catalog-image">
+          <img src="fikus_ben.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Фикус Бенджамина</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="ficus">
+      <div class="catalog-image">
+          <img src="ficus_lirat.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Фикус Лирата</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="ficus">
+      <div class="catalog-image">
+          <img src="ficus_kauch.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Фикус Каучуконосный</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="ficus">
+      <div class="catalog-image">
+          <img src="ficus_micro.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Фикус Микрокарпа</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="ficus">
+      <div class="catalog-image">
+          <img src="ficus_tineke.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Фикус Тинеке</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="fern">
+      <div class="catalog-image">
+          <img src="fern_nefro.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Папоротник Нефролепис</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="orchid">
+      <div class="catalog-image">
+          <img src="orchidea_dr.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Орхидея Лудизия</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="palm">
+      <div class="catalog-image">
+          <img src="palm_dr.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Пальма Драцена</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="succulent">
+      <div class="catalog-image">
+          <img src="succu.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Суккулента</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="cactus">
+      <div class="catalog-image">
+          <img src="cactus_cer.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Кактус Цереус</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+  <div class="catalog-card headercl" data-category="cactus">
+      <div class="catalog-image">
+          <img src="cactus_gross.png" alt="fikus">
+      </div>
+      <div class="catalog-info">
+          <div class="catalog-name">Кактус Гросса</div>
+          <div class="catalog-status">Этот цветок просто имба!</div>
+          <button class="add-catalog-btn">Добавить в коллекцию</button>
+      </div>
+  </div>
+</div>
+            </div>
+          </section>
+
         <section id="collection" class="page">
-            <h2 class="section-title">Моя коллекция растений</h2>
-            <p>Здесь находятся все растения, за которыми вы ухаживаете</p>
-            
-            <div class="collection-plants">
-                <div class="container-plants">
-                  <!-- Сетка выбора -->
-                  <div class="grid headercl">
-                    
-                  </div>
-              
-                  <!-- Панель информации -->
-                  <div class="info" id="info">
-                    <p>Выберите растение</p>
-                  </div>
-                </div>
-              </div>
+            <!-- Содержимое будет генерироваться через JS -->
         </section>
 
         <section id="care" class="page">
-            <h2 class="section-title">История ухода за растениями</h2>
-            <p>Здесь отображается история всех действий по уходу за вашими растениями</p>
-            
-            <div class="history-filters">
-                <button class="history-filter headercl-btn active">Все</button>
-                <button class="history-filter headercl-btn">Полив</button>
-                <button class="history-filter headercl-btn">Удобрение</button>
-                <button class="history-filter headercl-btn">Пересадка</button>
-            </div>
-            
-            <div class="history-list">
-                <div class="history-item headercl">
-                    <div>
-                        <div class="history-plant">Монстера</div>
-                        <div class="history-action">Полив</div>
-                    </div>
-                    <div class="history-date">Сегодня, 10:30</div>
-                </div>
-                
-            </div>
-            
-            <div class="add-care-form headercl">
-                <h3 class="form-title">Добавить действие по уходу</h3>
-                <div class="form-group">
-                    <label for="plant-select">Растение:</label>
-                    <select id="plant-select">
-                        <option>Монстера</option>
-                        <option>Фикус Бенджамина</option>
-                        <option>Орхидея</option>
-                        <option>Кактус</option>
-                        <option>Сансевиерия</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="action-select">Действие:</label>
-                    <select id="action-select">
-                        <option>Полив</option>
-                        <option>Удобрение</option>
-                        <option>Опрыскивание</option>
-                        <option>Пересадка</option>
-                        <option>Обрезка</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="care-date">Дата и время:</label>
-                    <input type="datetime-local" id="care-date">
-                </div>
-                <button class="add-care-btn headercl-btn">Добавить запись</button>
-            </div>
+            <!-- Содержимое будет генерироваться через JS -->
         </section>
         
         <!-- Модальное окно входа -->
-  <div class="modal" id="loginModal">
-    <h3>Вход</h3>
+        <div class="modal" id="loginModal">
+            <h3>Вход</h3>
+            <div class="input__container" data-label="USERNAME">
+                <div class="shadow__input"></div>
+                <button class="input__button__shadow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#000" />
+                    </svg>
+                </button>
+                <input type="text" id="loginUsername" class="input__search" placeholder="Enter username">
+            </div>
+            <div class="input__container" data-label="PASSWORD">
+                <div class="shadow__input"></div>
+                <button class="input__button__shadow">🔒</button>
+                <input type="password" id="loginPassword" class="input__search" placeholder="Enter password">
+            </div>
+            <button class="auth__btn" onclick="login()">Войти</button>
+        </div>
 
-    <div class="input__container" data-label="USERNAME">
-      <div class="shadow__input"></div>
-      <button class="input__button__shadow">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-          <path d="M0 0h24v24H0z" fill="none" />
-          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 
-          0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#000" />
-        </svg>
-      </button>
-      <input type="text" id="loginUsername" class="input__search" placeholder="Enter username">
-    </div>
+        <!-- Модальное окно регистрации -->
+        <div class="modal" id="registerModal">
+            <h3>Регистрация</h3>
+            <div class="input__container" data-label="USERNAME">
+                <div class="shadow__input"></div>
+                <button class="input__button__shadow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#000" />
+                    </svg>
+                </button>
+                <input type="text" id="regUsername" class="input__search" placeholder="Enter username">
+            </div>
+            <div class="input__container" data-label="PASSWORD">
+                <div class="shadow__input"></div>
+                <button class="input__button__shadow">🔒</button>
+                <input type="password" id="regPassword" class="input__search" placeholder="Enter password">
+            </div>
+            <button class="auth__btn" onclick="register()">Зарегистрироваться</button>
+        </div>
 
-    <div class="input__container" data-label="PASSWORD">
-      <div class="shadow__input"></div>
-      <button class="input__button__shadow">
-        🔒
-      </button>
-      <input type="password" id="loginPassword" class="input__search" placeholder="Enter password">
-    </div>
-
-    <button class="auth__btn"onclick="login()">Войти</button>
-  </div>
-
-  <!-- Модальное окно регистрации -->
-  <div class="modal" id="registerModal">
-    <h3>Регистрация</h3>
-
-    <div class="input__container" data-label="USERNAME">
-      <div class="shadow__input"></div>
-      <button class="input__button__shadow">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-          <path d="M0 0h24v24H0z" fill="none" />
-          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 
-          0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#000" />
-        </svg>
-      </button>
-      <input type="text" id="regUsername" class="input__search" placeholder="Enter username">
-    </div>
-
-    <div class="input__container" data-label="PASSWORD">
-      <div class="shadow__input"></div>
-      <button class="input__button__shadow">
-        🔒
-      </button>
-      <input type="password" id="regPassword" class="input__search" placeholder="Enter password">
-    </div>
-
-    <button class="auth__btn" onclick="register()">Зарегистрироваться</button>
-  </div>
-
-  <!-- Окно профиля -->
-  <div class="user-modal" id="userModal">
+        <!-- Окно профиля -->
+<div class="user-modal" id="userModal">
     <h3>Профиль</h3>
+    <div id="avatarSelection" class="avatar-selection" style="display: none;"></div>
     <div id="userProfileContent" class="profile-info"></div>
-    <div id="profileActions" class="profile-actions">
-      <!-- Кнопки подставляются через JS -->
-    </div>
-  </div>
-  
-  <div class="overlay" id="overlay" onclick="closeModals()"></div>
-  
+    <div id="profileActions" class="profile-actions"></div>
+</div>
+      
+        <div class="overlay" id="overlay" onclick="closeModals()"></div>
     </main>
 
     <footer class="page active">
         <div class="footer-container">
-          <div class="footer-logo">
-            Flowers Live
-          </div>
+          <div class="footer-logo">Flowers Live</div>
           <div class="footer-contacts">
             <p>Контакт: +8 800 55 35 35</p>
             <p>Почта: flowerslive@gmail.com</p>
@@ -305,11 +361,9 @@
             <p>Поздняков. Поливать.</p>
           </div>
         </div>
-        <div class="footer-bottom">
-          2025 © Все права защищены
-        </div>
-      </footer>
+        <div class="footer-bottom">2025 © Все права защищены</div>
+    </footer>
       
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
